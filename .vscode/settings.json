@@ -1,0 +1,26 @@
+{
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "idf.espIdfPathWin": "d:\\_IOT\\_ESP32\\VsCode\\v5.4\\esp-idf",
+    "idf.toolsPathWin": "d:\\_IOT\\_ESP32\\VsCode\\.espressif",
+    "idf.portWin": "COM6",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ]
+}
